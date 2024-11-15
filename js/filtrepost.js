@@ -8,7 +8,7 @@
     })
 }
 
-/*
+
 function extraire_cours() {
 // Construction de l’URL pour appeler l’API REST en fonction de la catégorie sélectionnée
 fetch(
@@ -16,12 +16,13 @@ fetch(
 )
 .then((response) => response.json()) // Conversion de la réponse en JSON
 .then((data) => {
-console.log(« Articles récupérés: », data); // Affiche les articles récupérés pour déboguer
+console.log("Articles récupérés: ", data); // Affiche les articles récupérés pour déboguer
+
 afficherArticles(data); // Appel à la fonction pour afficher les articles
 })
-.catch((error) => console.error(« Erreur lors de l’extraction des cours: », error)); // En cas d’erreur
+.catch((error) => console.error("Erreur lors de l’extraction des cours: ", error)); // En cas d’erreur
 }
 
 function afficheArticles(data){}
-*/
+
 })();
